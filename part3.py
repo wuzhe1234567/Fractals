@@ -12,7 +12,5 @@ def sierpinski(x, y, n):
         sierpinski(x + 2**(n - 1), y, n - 1)
         sierpinski(x + 2**(n - 1), y + 2**(n - 1), n - 1)
 sierpinski(0, 0, iterations)
-plt.imshow(image.numpy(), cmap='gray')
-plt.title("Sierpiński Triangle")
-plt.axis('off')
+plt.imshow(image.numpy())
 plt.show()
