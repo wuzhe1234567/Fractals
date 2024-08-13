@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-iterations = 7
+iterations = 6
 size = 2 ** iterations
 image = torch.zeros((size, size))
 def sierpinski(x, y, n):
